@@ -1,4 +1,4 @@
-deviceName := "Galaxy Buds2 Pro"
+deviceName := "Rhys' Buds2"
 
 DllCall("LoadLibrary", "str", "Bthprops.cpl", "ptr")
 VarSetCapacity(BLUETOOTH_DEVICE_SEARCH_PARAMS, 24+A_PtrSize*2, 0)
